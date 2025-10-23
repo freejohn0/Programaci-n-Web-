@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=, initial-scale=1.0">
+    <title>Ejemplo de tablas</title>
+</head>
+<body>
+
+      <h2 align="center">Tabla de Calificación de Estudiantes</h2>
+
+      <table border="1" cellpadding="8" cellspacing="3" align="center" bgcolor="#F5F5F5">
+
+                            <!--Titulo de la tabla-->
+        <caption style="caption-side: top; font-weight: bold; font-size: 18px;">
+            Resultados del primer trimestre.
+
+        </caption>                    
+                          <!--Encabezado de la tabla-->
+
+        <thead bgcolor="#D3D3D3"></thead>
+            <tr>
+                
+                <th>Nombre</th>
+                <th>Matemática</th>
+                <th>Programación</th>
+                <th>Ingles</th>
+
+            </tr>                
+        </thead>
+                       <!--Cuerpo de la tabla-->
+
+        <tbody>
+            <tr>
+                <td>Maria Gomez</td>
+                <td>95</td>
+                <td>98</td>
+                <td>90</td>
+            </tr>
+            <tr>
+                <td>Carlos Perez</td>
+                <td>88</td>
+                <td>92</td>
+                <td>85</td>
+            </tr>
+            <tr>
+                <td>Julian Perez</td>
+                <td>80</td>
+                <td>98</td>
+                <td>86</td>
+            </tr>
+            <tr>
+                <td>John Meran</td>
+                <td>95</td>
+                <td>96</td>
+                <td>98</td>
+            </tr>
+            
+        </tbody> 
+        
+                        <!--Pie de tabla-->
+        <tfoot bgcolor="#D3D3D3">
+            <tr>
+                <td><b>promedio</b></td>
+                <td>90</td>
+                <td>93</td>
+                <td>89</td>
+            </tr>    
+        </tfoot>                  
+    
+
+   <!-- <h2 align="center">Tabla de Calificación de Estudiantes</h2>-->
+
+        <table border="1" cellpadding="8" cellspacing="3" align="center" bgcolor="#F5F5F5">
+
+                            <!--Utilizando scope-->
+        <caption style="caption-side: top; font-weight: bold; font-size: 18px;">
+           Uso de scope.
+        </caption>  
+        <tr>
+            <th scope="col">ID</th>
+            <th scope="col">Nombre</th>
+           <th scope="col">Matemática</th>
+           <th scope="col">Programación</th>
+           <th scope="col">Ingles</th>
+        </tr>   
+        <tr>
+            <th scope="row">1</th>
+            <td>John Meran</td>
+            <td>95</td>
+            <td>96</td>
+            <td>98</td>
+        </tr>
+        
+         <table border="1" cellpadding="8" cellspacing="3" align="center" bgcolor="#F5F5F5">
+
+                            <!-- Expansión colspan y rowspan-->
+        <caption style="caption-side: top; font-weight: bold; font-size: 18px;">
+           Uso de Expansión.
+    </caption>
+        
+        <tr>
+            <th>Nombre</th>
+            <th>Asignatura</th>
+            <th>Calificación</th>
+        </tr>
+         <tr>
+            <td rowspan="2">John</td>
+            <td>Matemática</td>
+            <td>95</td>
+         </tr>
+         <tr>
+            <td>Programación</td>
+            <td>96</td>
+         </tr>
+</body>
+</html>
